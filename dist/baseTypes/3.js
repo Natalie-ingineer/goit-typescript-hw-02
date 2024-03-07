@@ -1,6 +1,7 @@
 let some;
-some = 'Text';
+some = "Text";
 let str;
-str = some;
+if (typeof some === "string")
+    str = some;
 export {};
 //# sourceMappingURL=3.js.map
