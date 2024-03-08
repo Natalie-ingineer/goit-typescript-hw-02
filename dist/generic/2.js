@@ -5,10 +5,10 @@
 */
 function compare(top, bottom) {
     return {
-        name: top.name,
-        color: top.color,
-        position: bottom.position,
-        weight: bottom.weight,
+        name: top,
+        color: top,
+        position: bottom,
+        weight: bottom,
     };
 }
 export {};

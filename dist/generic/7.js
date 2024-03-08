@@ -8,10 +8,4 @@ export var UserRole;
     UserRole["editor"] = "editor";
     UserRole["guest"] = "guest";
 })(UserRole || (UserRole = {}));
-// Замініть наступний код на версію за допомогою Record
-const RoleDescription = {
-    admin: 'Admin User',
-    editor: 'Editor User',
-    guest: 'Guest User',
-};
 //# sourceMappingURL=7.js.map
