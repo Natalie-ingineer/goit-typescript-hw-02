@@ -3,7 +3,11 @@
 */
 
 type Page = {
-  [key: string]: any;
+  title: string;
+  likes: number;
+  accounts: string[];
+  status: string;
+  details?: object;
 };
 
 const page1: Page = {

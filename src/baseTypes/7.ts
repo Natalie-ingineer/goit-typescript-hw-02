@@ -3,8 +3,7 @@
   і повертає boolean значення, що вказує, чи це день робочий чи вихідний.
 */
 
-// const weekDay: string = "Monday";
-// const weekend: string = "Suturday";
+
 
 enum WeekDay {
   Monday = "Monday",
